@@ -4,7 +4,6 @@
       <!-- Заголовок секции -->
       <div class="section-header">
         <h2 class="section-title">
-          <span class="title-number">02</span>
           <span class="title-text">Прозрачные цены</span>
         </h2>
         <p class="section-subtitle">
