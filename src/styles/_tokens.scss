@@ -1,0 +1,68 @@
+$bp-sm: 480px;
+$bp-md: 768px;
+$bp-lg: 1024px;
+$bp-xl: 1280px;
+
+:root {
+  --brand: #ff6a13;
+  --brand-strong: #f2560a;
+  --brand-soft: rgba(255, 106, 19, 0.12);
+  --brand-border: rgba(255, 106, 19, 0.32);
+  --signal: #ffc043;
+
+  --bg: #0b0c0e;
+  --bg-raised: #131519;
+  --bg-sunken: #08090a;
+  --surface: #16191e;
+  --surface-hover: #1c2027;
+
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.16);
+
+  --text: #f4f5f7;
+  --text-muted: #a2a9b4;
+  --text-dim: #6e7682;
+  --text-on-brand: #12130f;
+
+  --success: #3ec46d;
+  --danger: #ff5a5a;
+
+  --font-display: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-body: 'Inter Variable', 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --step-0: 1rem;
+  --step-1: clamp(1.0625rem, 0.2vw + 1rem, 1.1875rem);
+  --step-2: clamp(1.25rem, 0.5vw + 1.1rem, 1.5rem);
+  --step-3: clamp(1.5rem, 1vw + 1.25rem, 2rem);
+  --step-4: clamp(1.875rem, 2vw + 1.4rem, 2.75rem);
+  --step-5: clamp(2.25rem, 3.5vw + 1.4rem, 4rem);
+  --step-6: clamp(2.5rem, 5vw + 1.2rem, 5rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.55);
+  --shadow-brand: 0 10px 30px rgba(255, 106, 19, 0.28);
+
+  --container: 1200px;
+  --container-narrow: 820px;
+
+  --header-height: 88px;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --duration: 200ms;
+}

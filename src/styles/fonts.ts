@@ -1,0 +1,5 @@
+import '@fontsource-variable/inter/wght.css'
+import '@fontsource/oswald/cyrillic-500.css'
+import '@fontsource/oswald/cyrillic-600.css'
+import '@fontsource/oswald/latin-500.css'
+import '@fontsource/oswald/latin-600.css'
