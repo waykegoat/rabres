@@ -23,7 +23,7 @@ export const COMPANY = {
 } as const
 
 export const SITE_URL = (
-  import.meta.env.VITE_SITE_URL || 'https://mosraznorab.onrender.com'
+  import.meta.env.VITE_SITE_URL || 'https://rabochiy-resurs.ru'
 ).replace(/\/$/, '')
 
 export const DEFAULT_OG_IMAGE = '/og-image.jpg'

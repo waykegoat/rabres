@@ -7,4 +7,4 @@ compatibility_flags = ["nodejs_compat"]
 enabled = true
 
 [vars]
-ALLOWED_ORIGINS = "https://mosraznorab.onrender.com"
+ALLOWED_ORIGINS = "https://rabochiy-resurs.ru,https://www.rabochiy-resurs.ru,https://rabochiy-resurs.onrender.com"

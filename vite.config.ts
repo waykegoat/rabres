@@ -6,7 +6,7 @@ import { processLead } from './shared/lead.js'
 import { SERVICES } from './src/data/services'
 import { CITIES } from './src/data/cities'
 
-const SITE_URL = (process.env.VITE_SITE_URL || 'https://mosraznorab.onrender.com').replace(/\/$/, '')
+const SITE_URL = (process.env.VITE_SITE_URL || 'https://rabochiy-resurs.ru').replace(/\/$/, '')
 
 interface SitemapEntry {
   path: string
