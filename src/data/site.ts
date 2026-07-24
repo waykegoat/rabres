@@ -27,3 +27,5 @@ export const SITE_URL = (
 ).replace(/\/$/, '')
 
 export const DEFAULT_OG_IMAGE = '/og-image.jpg'
+
+export const YANDEX_METRIKA_ID = Number(import.meta.env.VITE_YANDEX_METRIKA_ID) || 0

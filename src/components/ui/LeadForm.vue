@@ -77,6 +77,7 @@ import BaseButton from './BaseButton.vue'
 import AppIcon from './AppIcon.vue'
 import { formatPhone, isValidPhone } from '../../lib/phone'
 import { submitLead } from '../../lib/leadApi'
+import { reachGoal } from '../../lib/analytics'
 import { PRIMARY_PHONE } from '../../data/site'
 
 const props = withDefaults(
@@ -139,6 +140,7 @@ async function handleSubmit() {
 
   if (result.ok) {
     status.value = 'success'
+    reachGoal('lead_submit')
     emit('submitted')
   } else {
     status.value = 'error'

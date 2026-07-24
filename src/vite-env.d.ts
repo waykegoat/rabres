@@ -15,3 +15,13 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv
 }
+
+interface YandexMetrikaFn {
+  (...args: unknown[]): void
+  a?: unknown[]
+  l?: number
+}
+
+interface Window {
+  ym?: YandexMetrikaFn
+}
