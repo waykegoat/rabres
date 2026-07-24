@@ -15,7 +15,10 @@ export interface LeadResult {
 
 const GENERIC_ERROR = 'Не удалось отправить заявку. Позвоните нам — ответим сразу.'
 
-const LEAD_ENDPOINT = import.meta.env.VITE_LEAD_ENDPOINT || '/api/lead'
+const PRODUCTION_ENDPOINT = 'https://mosraznorab-lead.rabochiy-resurs.workers.dev'
+
+const LEAD_ENDPOINT =
+  import.meta.env.VITE_LEAD_ENDPOINT || (import.meta.env.PROD ? PRODUCTION_ENDPOINT : '/api/lead')
 
 export async function submitLead(payload: LeadPayload): Promise<LeadResult> {
   try {
