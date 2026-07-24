@@ -28,7 +28,7 @@ export function initMetrika(): void {
     clickmap: true,
     trackLinks: true,
     accurateTrackBounce: true,
-    webvisor: false,
+    webvisor: true,
   })
 }
 
