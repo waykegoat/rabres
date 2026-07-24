@@ -10,7 +10,8 @@
     "typecheck": "vue-tsc --noEmit",
     "worker:dev": "wrangler dev",
     "worker:deploy": "wrangler deploy",
-    "assets": "node scripts/prepare-assets.mjs"
+    "assets": "node scripts/prepare-assets.mjs",
+    "worker:bundle": "esbuild worker/index.js --bundle --format=esm --platform=browser --target=es2022 --outfile=worker/bundle.js"
   },
   "dependencies": {
     "vue": "^3.5.40",

@@ -10,3 +10,4 @@ dist/
 npm-debug.log*
 .idea/
 .vscode/
+worker/bundle.js
